@@ -1,0 +1,79 @@
+body{
+    padding: 10px 15px;
+    background: linear-gradient(rgba(80, 19, 19, 0.6),rgba(34, 25, 25, 0.6)),url('background.jpg')center/contain repeat-y ;
+    font-size: x-large;
+
+    
+
+}
+
+.fex{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    
+}
+.carte {
+    width: 390px;
+    height: 610px;
+    background-color:rgb(167, 120, 221);
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgb(0, 0, 0,0.5);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 20px 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+} 
+.carte:hover{
+    width: 400px;
+    height: 620px;
+    border-radius: 15px;
+    background-color: darkkhaki;
+}
+.nike, p, h1 {  
+    color: rgb(8, 7, 7);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}       
+.caroussel{
+    height: auto;
+    width:auto;
+    color: turquoise;
+    display: flex;
+
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px ;
+}
+.detail p {
+  color: rgb(56, 54, 54);
+  text-align: center;
+}  
+.detail h1 { 
+    color: rgb(43, 39, 39);
+    font-size: large;
+} 
+
+.model {
+    border-radius: 50%;
+    width:60%;
+    height:50%;
+}
+.reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    border-radius: 50%;
+}
